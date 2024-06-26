@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 228, 206, 0.964);
+}
+#main>#page>#nav{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 10vh;
+}
+#main>#page>#nav>img{
+    position: absolute;
+    top: -30%;
+    height: 120px;
+    margin-left: 6%;
+    padding: 0px;
+}
+#main>#page>#nav>h5{
+    position: absolute;
+    left: 90%;
+    margin-top: 30px;
+    font-family: sans-serif;
+    scale: 125%;
+
+}
+#main>#page>#nav>i{
+    position: absolute;
+    scale: 150%;
+    left: 85%;
+    margin-top: 30px;
+}
+
+#main>#page>#nav>#centernav{
+    display: flex;
+    position: absolute;
+    left: 24%;
+    margin-top: 30px;
+    gap: 10px;  
+    scale: 135%; 
+    color: rgb(16 22 47);
+
+}
+#main>#page>#nav>#centernav>h5{
+    font-weight: 500;
+    font-family: sans-serif;
+}
+#main>#page>#right{
+    position: absolute;
+    width: 40vw;
+    height: 65vh;
+    left: 50%;
+    top: 20%;
+
+}
+#main>#page>#right>h3{
+    position: relative;
+    color: black;
+    font-family:Gilroy;
+    margin-left: 174px;
+    margin-top: 20px;
+    scale: 150%;
+}
+#main>#page>#right>.first>form>h4{
+    position: relative;
+    left: 74px;
+    top: 10%;
+    color: rgb(16 22 47);
+    margin-top: 25px;
+    font-weight: 120;
+    font-family: sans-serif;
+}
+#main>#page>#right>.first>form>input{
+    margin-top: 6px;
+    width:70%;
+    height: 50px;
+    margin-left: 74px;
+    border: 2px solid black;
+}
+#main>#page>#right>.second>form>h4{
+    position: relative;
+    color: rgb(16 22 47);
+    left: 74px;
+    margin-top: 25px;
+    font-weight: 120;
+    font-family: sans-serif;
+}
+#main>#page>#right>.second>form>input{
+    margin-top: 6px;
+    margin-left: 74px;
+    width:70%;
+    height: 50px;
+    border: 2px solid black;
+}
+#main>#page>#right>button{
+    width:70%;
+    height: 40px;
+    margin-left: 74px;
+    margin-top: 25px;
+    border-radius: 6px;
+    background-color: blue;
+    border: 2px solid blue;
+}
+#main>#page>#right>button>h3{
+    color: white;
+    align-items: center;
+    font-family: sans-serif;
+    scale: 125%;
+
+}
+#main>#page>#right>h4{
+    position: relative;
+    color: rgb(66 66 66);
+    margin-top: 28px;
+    margin-left: 74px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+#main>#page>#right>.text>h3{
+    position: relative;
+    color: black;
+    margin-left: 74px;
+    margin-top: 20px;
+    font-weight: 1000;
+    font-family: sans-serif;
+}
+#main>#page>#right>h4>a{
+    color: rgb(58 16 229);
+}
+#main>#page>#right>#bottom{
+    position: relative;
+    display: flex;
+    width: 92%;
+    height: 60px;
+    margin-top: 13px;
+    margin-left: 19px;
+    gap: 12px;
+
+}
+#main>#page>#right>#bottom>#frst{
+    position: relative;
+    width: 5vw;
+    height: 6.3vh;
+    background-color: #fff;
+    margin-top: 2px;
+    margin-left: 55px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+#main>#page>#right>#bottom>#frst>i{
+    position: relative;
+    font-size: 38px;
+    top: 6px;
+    left: 17px;
+}
+#main>#page>#right>#bottom>#sec{
+    position: relative;
+    width: 5vw;
+    height: 6.3vh;
+    background-color: #fff;
+    margin-top: 2px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+#main>#page>#right>#bottom>#sec>i{
+    position: relative;
+    font-size: 38px;
+    top: 6px;
+    left: 17px;
+}
+#main>#page>#right>#bottom>#third{
+    position: relative;
+    width: 5vw;
+    height: 6.3vh;
+    background-color: #fff;
+    margin-top: 2px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+#main>#page>#right>#bottom>#third>i{
+    position: relative;
+    font-size: 38px;
+    top: 6px;
+    left: 17px;
+}
+#main>#page>#right>#bottom>#fourth{
+    position: relative;
+    width: 5vw;
+    height: 6.3vh;
+    background-color: #fff;
+    margin-top: 2px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+#main>#page>#right>#bottom>#fourth>i{
+    position: relative;
+    font-size: 38px;
+    top: 6px;
+    left: 17px;
+}
+#main>#page>#right>#bottom>#fifth{
+    position: relative;
+    width: 5vw;
+    height: 6.3vh;
+    background-color: #fff;
+    margin-top: 2px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+#main>#page>#right>#bottom>#fifth>i{
+    position: relative;
+    font-size: 35px;
+    top: 6px;
+    left: 17px;
+}
+#main>#page>#left{
+    position: absolute;
+    width: 40vw;
+    height: 65vh;
+    left: 8%;
+    top: 20%;
+
+}
+#main>#page>#left>#i2{
+    position: absolute;
+    width: 38vw;
+    height: 55vh;
+    left: 3%;
+    top: 3%;
+    border: 1px solid black;
+    
+}
+#main>#page>#left>#i1>img{
+    position: absolute;
+    width: 38.5vw;
+    height: 57vh;
+    left: 1%;
+    top: 3%;
+
+
+}
